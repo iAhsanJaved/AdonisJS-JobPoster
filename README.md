@@ -1,31 +1,17 @@
-# Adonis fullstack application
+# Adonis Job Poster Application
 
-This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
+A simple job posting application in AdonisJS
 
-1. Bodyparser
-2. Session
-3. Authentication
-4. Web security middleware
-5. CORS
-6. Edge template engine
-7. Lucid ORM
-8. Migrations and seeds
+### Demo
+![Alt Text](demo.gif)
 
-## Setup
+### Tutorial Reference
+https://coursetro.com/posts/code/170/Adonis-4-Tutorial---Learn-Adonis-4-in-this-Crash-Course
 
-Use the adonis command to install the blueprint
+## How to run
 
-```bash
-adonis new yardstick
-```
-
-or manually clone the repo and then run `npm install`.
-
-
-### Migrations
-
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
-```
+- Run `npm install` to install all dependencies
+- Make a copy of `.env.example` rename it to `.env`
+- Run `adonis key:generate` to generate the secret key
+- Run `adonis migration:run` to setup the database
+- Run `adonis serve --dev` to run the application
